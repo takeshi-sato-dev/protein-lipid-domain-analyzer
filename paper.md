@@ -146,5 +146,6 @@ The software has immediate applications in studying ganglioside function, choles
 # Acknowledgements
 
 We acknowledge the MDAnalysis and PyMC development teams for providing the foundational libraries that made this work possible.
+We acknowledge contributions and support from Kyoto Pharmaceutical University Fund for the Promotion of Collaborative Research. This work was partially supported by JSPS KAKENHI Grant Number 21K06038.
 
 # References
