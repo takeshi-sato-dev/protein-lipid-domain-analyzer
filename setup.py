@@ -7,11 +7,10 @@ setup(
     name="lipid-domain-transport-analyzer",
     version="1.0.0",
     author="Takeshi Sato",
-    author_email="tsato@kyoyaku.ac.jp",
     description="A configurable toolkit for studying membrane lipid-mediated protein transport using Hidden Markov Models and Bayesian statistics",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tsato-kyoyaku/lipid-domain-transport-analyzer",
+    url="https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -51,8 +50,8 @@ setup(
     },
     keywords="molecular dynamics, membrane biology, lipid transport, Hidden Markov Models, Bayesian statistics, cholesterol domains, gangliosides",
     project_urls={
-        "Bug Reports": "https://github.com/tsato-kyoyaku/lipid-domain-transport-analyzer/issues",
-        "Source": "https://github.com/tsato-kyoyaku/lipid-domain-transport-analyzer",
-        "Documentation": "https://github.com/tsato-kyoyaku/lipid-domain-transport-analyzer/README.md",
+        "Bug Reports": "https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer/issues",
+        "Source": "https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer",
+        "Documentation": "https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer/README.md",
     },
 )
