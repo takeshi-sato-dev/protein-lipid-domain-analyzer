@@ -12,9 +12,9 @@ The test dataset includes:
 - Example output figures
 - Configuration examples
 
-**Zenodo DOI**: [To be added upon upload]
+**Zenodo DOI**: 10.5281/zenodo.16888741
 
-**Download link**: [To be added upon upload]
+**Download link**: https://zenodo.org/records/16888741
 
 ### File Sizes
 - test_system.psf: ~5 MB
@@ -51,7 +51,7 @@ If you have your own MD trajectories, ensure they include:
 
 To reproduce the exact figures from our paper:
 
-1. Download the full dataset from Zenodo (DOI: [to be added])
+1. Download the full dataset from Zenodo (DOI: 10.5281/zenodo.16888741)
 2. Use the provided configuration file: `paper_config.json`
 3. Run: `python main.py --config paper_config.json`
 

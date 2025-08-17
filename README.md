@@ -58,7 +58,7 @@ python main.py --config my_config.json
 ### Required Files
 
 Test data and example trajectories are available on Zenodo due to file size:
-- **Zenodo DOI**: [To be added]
+- **Zenodo DOI**: 10.5281/zenodo.16888741
 - **Download**: See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md)
 
 Required files:
