@@ -1,0 +1,36 @@
+{
+    "title": "Lipid Domain Transport Analyzer",
+    "description": "A configurable toolkit for studying membrane lipid-mediated protein transport using Hidden Markov Models and Bayesian statistics on molecular dynamics simulation data.",
+    "creators": [
+        {
+            "name": "Sato, Takeshi",
+            "affiliation": "Kyoto Pharmaceutical University",
+            "orcid": "0009-0006-9156-8655"
+        }
+    ],
+    "license": "MIT",
+    "keywords": [
+        "molecular dynamics",
+        "membrane biology", 
+        "lipid transport",
+        "Hidden Markov Models",
+        "Bayesian statistics",
+        "cholesterol-rich domains",
+        "gangliosides",
+        "protein-lipid interactions",
+        "membrane domains"
+    ],
+    "subjects": [
+        {
+            "term": "Biophysics",
+            "identifier": "https://id.loc.gov/authorities/subjects/sh85014250"
+        },
+        {
+            "term": "Computational Biology",
+            "identifier": "https://id.loc.gov/authorities/subjects/sh2003011237"
+        }
+    ],
+    "language": "eng",
+    "access_right": "open",
+    "upload_type": "software"
+}

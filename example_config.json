@@ -1,0 +1,13 @@
+{
+  "TOPOLOGY_FILE": "step5_assembly.psf",
+  "TRAJECTORY_FILE": "md_wrapped.xtc",
+  "TARGET_LIPID": "DPG3",
+  "TARGET_LIPID_ALIASES": ["GM3", "gm3", "DPG3", "dpg3"],
+  "EXCLUDE_FROM_LIPIDS": ["TIP3", "POT", "CLA", "SOD", "WAT", "Na+", "Cl-"],
+  "START_FRAME": 20000,
+  "STOP_FRAME": 80000,
+  "FRAME_STEP": 10,
+  "TARGET_LIPID_INTERACTION_RADIUS": 10.0,
+  "CHOL_DENSITY_THRESHOLD": 0.8,
+  "SM_DENSITY_THRESHOLD": 0.55
+}
