@@ -6,15 +6,17 @@ Due to the large size of molecular dynamics trajectory files, test data and exam
 
 ### Download Test Data
 
+For test data, please use the Test dataset for LIPAC (Lipid-Protein Analysis with Causal Inference) available on Zenodo.
+
 The test dataset includes:
 - `test_system.psf` - Topology file for test system
 - `test_trajectory.xtc` - Trajectory file (compressed coordinates)
 - Example output figures
 - Configuration examples
 
-**Zenodo DOI**: 10.5281/zenodo.16888741
+**Test Dataset DOI**: 10.5281/zenodo.16891376
 
-**Download link**: https://zenodo.org/records/16888741
+**Download link**: https://zenodo.org/records/16891376
 
 ### File Sizes
 - test_system.psf: ~5 MB
@@ -51,7 +53,7 @@ If you have your own MD trajectories, ensure they include:
 
 To reproduce the exact figures from our paper:
 
-1. Download the full dataset from Zenodo (DOI: 10.5281/zenodo.16888741)
+1. Download the test dataset from Zenodo (DOI: 10.5281/zenodo.16891376)
 2. Use the provided configuration file: `paper_config.json`
 3. Run: `python main.py --config paper_config.json`
 
