@@ -110,7 +110,7 @@ The modular architecture separates concerns:
 
 # Usage Example
 
-Test data and example trajectories are available on Zenodo (DOI: 10.5281/zenodo.16888741) for users to explore the software capabilities with realistic molecular dynamics data.
+Test data and example trajectories are available on Zenodo (DOI: 10.5281/zenodo.16900023) for users to explore the software capabilities with realistic molecular dynamics data.
 
 ```bash
 # Basic usage with automatic detection
