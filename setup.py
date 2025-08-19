@@ -4,13 +4,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="lipid-domain-transport-analyzer",
+    name="protein-lipid-domain-analyzer",
     version="1.0.0",
     author="Takeshi Sato",
-    description="A configurable toolkit for studying membrane lipid-mediated protein transport using Hidden Markov Models and Bayesian statistics",
+    description="A configurable toolkit for studying membrane protein-lipid domain interactions using proximity-based analysis and Bayesian statistics",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer",
+    url="https://github.com/takeshi-sato-dev/protein-lipid-domain-analyzer",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -45,13 +45,13 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "lipid-domain-analyzer=main:main",
+            "protein-lipid-analyzer=main:main",
         ],
     },
-    keywords="molecular dynamics, membrane biology, lipid transport, Hidden Markov Models, Bayesian statistics, cholesterol domains, gangliosides",
+    keywords="molecular dynamics, membrane biology, protein-lipid interactions, proximity analysis, Bayesian statistics, cholesterol domains, gangliosides",
     project_urls={
-        "Bug Reports": "https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer/issues",
-        "Source": "https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer",
-        "Documentation": "https://github.com/takeshi-sato-dev/Lipid-Domain-Transport-Analyzer/README.md",
+        "Bug Reports": "https://github.com/takeshi-sato-dev/protein-lipid-domain-analyzer/issues",
+        "Source": "https://github.com/takeshi-sato-dev/protein-lipid-domain-analyzer",
+        "Documentation": "https://github.com/takeshi-sato-dev/protein-lipid-domain-analyzer/README.md",
     },
 )

@@ -174,7 +174,7 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 try:
-    from domain_transport import (
+    from protein_lipid_domain_analyzer import (
         calculate_order_parameter,
         calculate_op_kde, 
         calculate_domain_info,
@@ -196,7 +196,7 @@ try:
         calculate_tm_from_counts
     )
 except ImportError as e:
-    print(f"Warning: Could not import from domain_transport: {e}")
+    print(f"Warning: Could not import from protein_lipid_domain_analyzer: {e}")
     # Define minimal fallbacks if needed
 
 def create_state_distribution_plot(protein_data, plot_proteins, output_dir):
@@ -357,9 +357,9 @@ def run_analysis_pipeline(output_dir, n_jobs=-1):
     
     # Import original plotting functions and modify only target_lipid references
     try:
-        from domain_transport import create_gm3_effect_summary_plot, perform_hierarchical_bayesian_analysis
+        from protein_lipid_domain_analyzer import create_gm3_effect_summary_plot, perform_hierarchical_bayesian_analysis
     except ImportError:
-        print("Warning: Could not import plotting functions from domain_transport")
+        print("Warning: Could not import plotting functions from protein_lipid_domain_analyzer")
     
     # 1. State distribution plot
     try:

@@ -1,12 +1,12 @@
-# Lipid Domain Transport Analyzer
+# Protein-Lipid Domain Analyzer
 
-A comprehensive analysis toolkit for studying target lipid-mediated protein transport to cholesterol-rich membrane domains using Hidden Markov Models and Bayesian statistics on molecular dynamics simulation data.
+A comprehensive analysis toolkit for studying protein-lipid domain interactions and target lipid-mediated protein transport to cholesterol-rich membrane domains using proximity-based analysis and Bayesian statistics on molecular dynamics simulation data.
 
 ## Overview
 
 This package analyzes how target lipids (e.g., GM3 gangliosides, DPG3, or other membrane components) affect protein localization between cholesterol/sphingomyelin-rich (CS-rich) and disordered (D-rich) membrane domains. It uses:
 
-- **Hidden Markov Models** to identify protein states based on target lipid binding and domain localization
+- **Proximity-based analysis** to identify protein states based on target lipid binding and domain localization
 - **Bayesian statistics** to quantify target lipid effects on protein transport
 - **Configurable target lipids** for flexible analysis of different membrane components
 
@@ -14,7 +14,7 @@ This package analyzes how target lipids (e.g., GM3 gangliosides, DPG3, or other 
 
 - ✅ **Configurable target lipid analysis** (GM3, DPG3, DPGS, etc.)
 - ✅ **Four-state classification**: Non_TARGET_D, Non_TARGET_CS, TARGET_D, TARGET_CS
-- ✅ **Hidden Markov Model** state determination and transition analysis
+- ✅ **Proximity-based state classification** and transition analysis
 - ✅ **Hierarchical Bayesian modeling** of group-level effects
 - ✅ **Publication-ready figures** (PNG + SVG output)
 - ✅ **Parallel processing** support for large trajectories
@@ -192,8 +192,8 @@ Edit configuration file or modify `src/config.py`:
 If you use this software in your research, please cite:
 
 ```bibtex
-@article{sato2025lipid,
-  title={Lipid Domain Transport Analyzer: A configurable toolkit for studying membrane lipid-mediated protein transport using Hidden Markov Models and Bayesian statistics},
+@article{sato2025protein,
+  title={Protein-Lipid Domain Analyzer: A configurable toolkit for studying membrane protein-lipid domain interactions using proximity-based analysis and Bayesian statistics},
   author={Sato, Takeshi},
   journal={Journal of Open Source Software},
   year={2025},
@@ -213,8 +213,8 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 ## Support
 
 - 📖 **Documentation**: See [README.md](README.md) for usage instructions
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/tsato-kyoyaku/lipid-domain-transport-analyzer/issues)
-- 💬 **Questions**: Open a [GitHub Discussion](https://github.com/tsato-kyoyaku/lipid-domain-transport-analyzer/discussions)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/takeshi-sato-dev/protein-lipid-domain-analyzer/issues)
+- 💬 **Questions**: Open a [GitHub Discussion](https://github.com/takeshi-sato-dev/protein-lipid-domain-analyzer/discussions)
 
 ## Acknowledgments
 
